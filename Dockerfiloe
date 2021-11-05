@@ -1,8 +1,6 @@
 FROM tomcat:8
-COPY target/*.war/user/tomcat/webapps/ 
- COPY --chown=node:node . .
-COPY package*.json ./
-USER node
+COPY target/*.war/user/tomcat/webapps ./ 
+ 
 
 
 
