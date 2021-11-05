@@ -3,5 +3,7 @@ COPY target/*.war/user/tomcat/webapps/
 COPY --chown=node:node ./ 
  COPY --chown=node:node . .
 COPY package*.json ./
+USER node
+
 
 
