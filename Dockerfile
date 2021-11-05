@@ -1,3 +1,3 @@
 FROM tomcat:8
-COPY target/*.war/user/tomcat8/webapps ./ 
+COPY target/redmi-1.0-SNAPSHOT.jar/user/tomcat/webapps ./ 
 
